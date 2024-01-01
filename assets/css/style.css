@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #00cc95;
+  color: #0d6efd;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 86px;
   z-index: 996;
   background: #101820;
   width: 40px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #00c28e;
+  background: #0d6efd;
   color: #fff;
 }
 .back-to-top.active {
@@ -162,16 +162,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #1d9bf0;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #1d9bf0;
+  background: #ffffff;
   padding: 10px 25px;
   margin-left: 30px;
   margin-right: 15px;
   border-radius: 50px;
-  color: #fff;
+  color: #000;
+  border: 2px solid #000;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #1d9bf0;
-  background: #fff;
+  color: #fff;
+  background: #000;
+  border: 2px solid #fff;
 }
 .navbar .dropdown ul {
   display: block;
@@ -1224,7 +1226,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #00664b;
+  background: #0d6efd;
 }
 #footer .credits {
   padding-top: 5px;
@@ -1246,7 +1248,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #00805d;
+  background: #0d6efd;
   color: #fff;
   text-decoration: none;
 }
